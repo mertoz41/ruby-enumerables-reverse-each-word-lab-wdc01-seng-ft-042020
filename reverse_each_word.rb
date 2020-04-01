@@ -1,7 +1,7 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  array = string.split(" ")
+  array = String.split(" ")
   new_array = [] 
   array.each { | string |
   new_array << string.reverse
